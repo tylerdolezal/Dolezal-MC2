@@ -1,4 +1,4 @@
-# Dolezal-MC2 (depreciated version, please see https://github.com/SaminGroup/Dolezal-MC2 for the most up-to-date version of our MC2 code)
+# depreciated version, please see https://github.com/SaminGroup/Dolezal-MC2 for the most up-to-date version of our MC2 code
 
 This is my version of MC2 inspired by the released version (https://www.nature.com/articles/s41524-019-0259-z), but with the updated acceptance criterion derived
 here (https://ui.adsabs.harvard.edu/abs/2020PhRvE.101f3306A/abstract). To use this method, please install CVXPY, "pip install cvxpy", "conda install -c conda-forge cvxpy", https://www.cvxpy.org/install/index.html. This package is required to solve Ax = b subject to the constraint that the molar fraction vector sums to 1 and the indices of f be in the domain [0,1]. 
